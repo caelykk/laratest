@@ -1,0 +1,142 @@
+:root {
+  --c1: #FFFFFF;
+  --c2: #F9F9FA;
+  --c3: #EEEEEE;
+  --c4: #E2F6EC;
+  --c5: #DFE0E1;
+
+
+  --c6: #1C294D;
+  --c7: #2196F3;
+  --c8: #282F36;
+  --c9: #2A3D48;
+  --c10: #959EA4;
+
+  --c11: #FF5C00;
+  --c12: #FC6E1D;
+  --c13: #FF7A00;
+
+  --c14: #FF283D;
+  --c15: #FF3347;
+  --c16: #EF5350;
+
+  --c17: #27AE60;
+
+  --c18: #DFE2E4;
+
+  --c19: #E5E5E5;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background: var(--c19);
+  color: var(--c6);
+
+
+}
+
+input,
+select {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+button
+{
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  background-color: transparent;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  &:focus
+  {
+    outline: 0;
+  }
+}
+
+a {
+  text-align: center;
+  background: transparent;
+  text-decoration: none;
+  color: var(--c6);
+  opacity: .8;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.g-btn-orange
+{
+  border: 0;
+  background: var(--c13);
+  cursor: pointer;
+  padding: 10px 25px;
+  line-height: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  color: var(--c1);
+}
+
+
+.icon-wrapper
+{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: .5;
+}
+
+
+@media(min-width: 576px) {
+  .container,.container-sm {
+    max-width:540px
+  }
+}
+
+@media(min-width: 768px) {
+  .container,.container-sm,.container-md {
+    max-width:720px
+  }
+}
+
+@media(min-width: 992px) {
+  .container,.container-sm,.container-md,.container-lg {
+    max-width:960px
+  }
+}
+
+@media(min-width: 1200px) {
+  .container,.container-sm,.container-md,.container-lg,.container-xl {
+    max-width:1140px
+  }
+}
+
+@media(min-width: 1400px) {
+  .container,.container-sm,.container-md,.container-lg,.container-xl,.container-xxl {
+    max-width:1320px
+  }
+}

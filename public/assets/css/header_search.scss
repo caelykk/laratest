@@ -1,0 +1,36 @@
+.header__bottom-search
+{
+  width: 573px;
+  position: relative;
+
+
+  input
+  {
+    background: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0 10px 15px;
+    width: 100%;
+    outline: 1px solid rgba(28, 41, 77, 0.15);
+    outline-offset: -1px;
+    line-height: 20px;
+    &:focus
+    {
+      outline: 1px solid var(--c13);
+    }
+  }
+
+  &--icon {opacity: 1 !important;}
+
+  .g-btn-orange
+  {
+    gap: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    align-items: center;
+  }
+
+}

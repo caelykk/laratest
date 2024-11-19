@@ -1,0 +1,48 @@
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.header__nav-item {
+  line-height: 20px;
+}
+.header__nav-item a {
+  opacity: 1;
+}
+.header__nav-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header__nav-link:hover {
+  color: var(--c6);
+  opacity: 1;
+  text-decoration: none;
+}
+.header__nav-link.selected {
+  border-bottom-color: var(--c13);
+}
+.header__nav .catalog-icon {
+  position: relative;
+  opacity: 1;
+}
+.header__nav .catalog-icon--icon_2 {
+  position: absolute;
+  left: 3px;
+}
+.header__nav .sale-icon,
+.header__nav .sale-icon:hover {
+  opacity: 1;
+}
+.header__nav .red {
+  color: var(--c14) !important;
+}
+.header__nav .red:hover {
+  color: var(--c14);
+}
+
+.submenu {
+  display: none;
+}
+
+/*# sourceMappingURL=header_nav.css.map */

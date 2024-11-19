@@ -1,0 +1,65 @@
+.header__nav
+{
+  &-list
+  {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  &-item
+  {
+    line-height: 20px;
+    a
+    {
+      opacity: 1;
+    }
+  }
+
+  &-link
+  {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    //border-bottom: 2px solid transparent;
+
+    &:hover
+    {
+      color: var(--c6);
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    &.selected {border-bottom-color: var(--c13);}
+  }
+
+  .catalog-icon
+  {
+    position: relative;
+    //display: flex;
+    //align-items: center;
+    //justify-content: flex-start;
+    opacity: 1;
+
+    &--icon_2
+    {
+      position: absolute;
+      left: 3px;
+    }
+  }
+
+  .sale-icon,
+  .sale-icon:hover
+  {
+    //opacity: 1 !important;
+    opacity: 1;
+  }
+
+  .red
+  {
+    color: var(--c14) !important;
+    &:hover {color: var(--c14);}
+  }
+}
+
+.submenu {display: none;}
