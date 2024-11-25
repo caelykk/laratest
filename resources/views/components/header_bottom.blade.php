@@ -3,7 +3,7 @@
 		<div class="header__bottom-wrapper">
 			<div class="header__bottom-mid">
 				<div class="header__bottom-left">
-					<a href="/" class="header__logo">
+					<a href="{{ route('home') }}" class="header__logo">
 						<img src="{{ asset('assets/images/logo.svg') }}" alt="logo"/>
 					</a>
 					<div class="header__bottom-search">
@@ -17,7 +17,7 @@
 					<ul class="header__items">
 						<li class="header__item">
 
-							<a href="/delayed/" class="header__nav-link">
+							<a href="{{ route('delayed') }}" class="header__nav-link">
 								<div class="icon-wrapper">
 									<img src="{{ asset('assets/images/Bookmark.svg') }}" alt="logo"/>
 								</div>
@@ -25,7 +25,7 @@
 							</a>
 						</li>
 						<li class="header__item" >
-							<a href="/personal/" class="header__nav-link auth">
+							<a href="{{ route('personal') }}" class="header__nav-link auth">
 								<div class="icon-wrapper">
 									<img src="{{ asset('assets/images/User.svg') }}" alt="logo"/>
 
@@ -34,7 +34,7 @@
 							</a>
 						</li>
 						<li class="header__item">
-							<a href="/cart/" class="header__nav-link">
+							<a href="{{ route('cart') }}" class="header__nav-link">
 								<div class="header__item-icon">
 									<img src="{{ asset('assets/images/Cart.svg') }}" alt="logo"/>
 

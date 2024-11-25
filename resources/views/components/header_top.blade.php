@@ -7,7 +7,7 @@
 						<x-geoloc></x-geoloc>
 					</li>
 					<li class="header__top-item header__top-delivery header__item">
-						<a href="/delivery-payment/" class="header__nav-link">
+						<a href="{{ route('delivery-payment') }}" class="header__nav-link">
 							<div class="icon-wrapper">
 								<img src="{{ asset('assets/images/Shippings.svg') }}" alt="">
 							</div>
@@ -15,7 +15,7 @@
 						</a>
 					</li>
 					<li class="header__top-item header__top-address header__item">
-						<a href="/address/" class="header__nav-link">
+						<a href="{{ route('address') }}" class="header__nav-link">
 							<div class="icon-wrapper">
 								<img src="{{ asset('assets/images/Shopping.svg') }}" alt="">
 							</div>
